@@ -11,7 +11,7 @@ def get_gemini_response(prompt):
     return response.text
 
 # Judul Aplikasi
-st.title("Chatbot Gemini dengan Streamlit")
+st.title("My Chatbot")
 
 # Inisialisasi session state untuk menyimpan percakapan
 if "messages" not in st.session_state:
